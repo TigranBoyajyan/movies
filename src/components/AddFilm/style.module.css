@@ -1,0 +1,78 @@
+.d1 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  gap: 50px;
+  background-image: url("https://w7.pngwing.com/pngs/355/730/png-transparent-desktop-display-resolution-high-definition-video-light-blue-abstract-background-blue-atmosphere-computer-wallpaper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  color: rgb(1, 1, 125);
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.form>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  color: rgb(1, 1, 125);
+  padding-left: 10px;
+}
+
+.sel {
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(1, 1, 125);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin-top: 25px;
+  background-color: white;
+  color: rgb(1, 1, 125);
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 0.7s;
+}
+
+.btn:hover {
+  background-color: rgb(1, 1, 125);
+  color: white;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.p{
+  color: red;
+  font-size: 17px;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,121 @@
+.d1 {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  gap: 50px;
+  background-image: url("data:image/jpeg;base64,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");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img {
+  margin-top: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+.d2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.d4 {
+  overflow: hidden;
+}
+
+.h1 {
+  letter-spacing: 10px;
+  color: blue;
+  font-size: 42px;
+  font-family: cursive;
+  margin: 20px;
+}
+
+.h {
+  color: rgb(4, 4, 182);
+}
+
+.span {
+  color: black;
+  font-family: cursive;
+}
+
+.spanComm {
+  height: 50%;
+  color: black;
+  font-family: cursive;
+  border-right: 2px solid blue;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.star {
+  font-size: 150%;
+  color: yellow;
+}
+
+.comm {
+  resize: none;
+  border: none;
+  width: 250px;
+  min-height: 50px;
+  padding: 5px;
+  color: rgb(4, 4, 182);
+  font-size: 17px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: rgb(4, 4, 182);
+  transition: 0.7s;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  transition: 0.7s;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(4, 4, 182);
+}
+
+.dComm{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 900px;
+  min-height: 100px;
+  border: 3px solid blue;
+  color: rgb(4, 4, 182);
+}
+
+.dForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
